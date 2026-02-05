@@ -64,7 +64,7 @@ You've built the **perfect plan** for the week - calendar, time blocks, even bre
 
 <v-click>
 
-<div class="text-xl mt-6 text-amber-400">
+<div class="text-xl mt-6 monday-text-purple">
 By Wednesday, everything's off.
 </div>
 
@@ -99,7 +99,7 @@ Intro
 
 <div class="text-xl leading-relaxed mt-8">
 
-<div class="text-xl mt-8 text-amber-400">
+<div class="text-xl mt-8 monday-text-purple">
 Every task feels important - and everything needs to be done <em>yesterday.</em>
 </div>
 
@@ -200,7 +200,7 @@ Managing **4-6 different calendars** simultaneously was my day-to-day norm
 
 <v-click>
 
-<div class="text-xl mt-8 text-amber-400">
+<div class="text-xl mt-8 monday-text-purple">
 Over the years, I adapted a system that works well for me.
 </div>
 
@@ -237,7 +237,7 @@ TLF members experience something similar:
 
 <v-click>
 
-<div class="text-xl mt-6 text-amber-400">
+<div class="text-xl mt-6 monday-text-purple">
 How do you find the time for everything?
 </div>
 
@@ -386,10 +386,10 @@ graph LR
     B --> C[Overload]
     C --> D[Overwork]
     D --> A
-    style A fill:#f59e0b,stroke:#000,color:#000
-    style B fill:#f59e0b,stroke:#000,color:#000
-    style C fill:#f59e0b,stroke:#000,color:#000
-    style D fill:#f59e0b,stroke:#000,color:#000
+    style A fill:#6161FF,stroke:#000,color:#fff
+    style B fill:#6161FF,stroke:#000,color:#fff
+    style C fill:#6161FF,stroke:#000,color:#fff
+    style D fill:#6161FF,stroke:#000,color:#fff
 ```
 
 <v-clicks>
@@ -434,28 +434,28 @@ C3PO Framework
 
 <v-click>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-4xl font-bold text-amber-400">C</div>
+<div class="p-4 monday-bg-purple-light rounded-lg">
+<div class="text-4xl font-bold monday-text-purple">C</div>
 <div class="text-sm mt-2">Collection</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-4xl font-bold text-amber-400">C</div>
+<div class="p-4 monday-bg-purple-lighter rounded-lg">
+<div class="text-4xl font-bold monday-text-purple-light">C</div>
 <div class="text-sm mt-2">Calendar</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-4xl font-bold text-amber-400">C</div>
+<div class="p-4 monday-bg-green-light rounded-lg">
+<div class="text-4xl font-bold monday-text-green">C</div>
 <div class="text-sm mt-2">Concentration</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-4xl font-bold text-amber-400">P</div>
+<div class="p-4 monday-bg-yellow-light rounded-lg">
+<div class="text-4xl font-bold monday-text-yellow">P</div>
 <div class="text-sm mt-2">Prioritize</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-4xl font-bold text-amber-400">O</div>
+<div class="p-4 monday-bg-red-light rounded-lg">
+<div class="text-4xl font-bold monday-text-red">O</div>
 <div class="text-sm mt-2">Objective</div>
 </div>
 
@@ -632,7 +632,7 @@ Collection
 
 
 
-<div class="mt-6 text-lg text-amber-400">
+<div class="mt-6 text-lg monday-text-purple">
 Now you have automated task reminders flowing between Monday and Slack!
 </div>
 
@@ -827,7 +827,7 @@ Prioritize by <strong>Importance</strong> (to me) and <strong>Urgency</strong>
 
 <v-click>
 
-<div class="mt-6 p-4 bg-amber-500/20 rounded-lg">
+<div class="mt-6 p-4 monday-bg-purple-light rounded-lg">
 A task is always important to the org, but in the context of Self Time Management - we want to spend time on what's <strong>important to us</strong> (aligns with our personal or position goals).
 </div>
 
@@ -904,7 +904,7 @@ Prioritize
 # Important + Urgent 
 ### Do ASAP
 
-<div class="text-lg mt-4 text-amber-400">
+<div class="text-lg mt-4 monday-text-purple">
 Tasks critical to your goals AND requiring immediate action.
 </div>
 
@@ -943,7 +943,7 @@ Prioritize
 # Important + Not Urgent
 ### Defer / Schedule to MIT
 
-<div class="text-lg mt-4 text-amber-400">
+<div class="text-lg mt-4 monday-text-purple">
 Tasks that drive high long-term value but don't demand immediate action.
 </div>
 
@@ -982,7 +982,7 @@ Prioritize
 # Not Important + Urgent
 ### Delegate
 
-<div class="text-lg mt-4 text-amber-400">
+<div class="text-lg mt-4 monday-text-purple">
 Tasks that feel urgent but don't meaningfully advance your goals.
 </div>
 
@@ -1022,7 +1022,7 @@ Prioritize
 # Not Important + Not Urgent 
 ### Delete
 
-<div class="text-lg mt-4 text-amber-400">
+<div class="text-lg mt-4 monday-text-purple">
 Tasks that add little value - minimize, postpone, or delete.
 </div>
 
@@ -1216,7 +1216,7 @@ Prioritize
 
 <v-click>
 
-<div class="mt-6 p-4 bg-amber-500/20 rounded-lg">
+<div class="mt-6 p-4 monday-bg-purple-light rounded-lg">
 Each time you reschedule, re-evaluate importance & urgency
 </div>
 
@@ -1259,7 +1259,7 @@ Objective
 
 <v-click>
 
-<div class="mt-6 text-xl text-amber-400">
+<div class="mt-6 text-xl monday-text-purple">
 We can now allocate calendar time based on priority.
 </div>
 
@@ -1284,7 +1284,7 @@ If you have multiple deep tasks that must progress in parallel
 
 <v-click>
 
-<div class="mt-4 p-4 bg-amber-500/20 rounded-lg">
+<div class="mt-4 p-4 monday-bg-purple-light rounded-lg">
 Define a <strong>daily focus</strong> - each day the MIT is a different deep task
 </div>
 
@@ -1355,32 +1355,32 @@ Summary
 
 <div class="grid grid-cols-5 gap-4 mt-8 text-center">
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-3xl font-bold text-amber-400">C</div>
+<div class="p-4 monday-bg-purple-light rounded-lg">
+<div class="text-3xl font-bold monday-text-purple">C</div>
 <div class="text-xs mt-2">Collection</div>
 <div class="text-xs opacity-60">Organize tasks</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-3xl font-bold text-amber-400">C</div>
+<div class="p-4 monday-bg-purple-lighter rounded-lg">
+<div class="text-3xl font-bold monday-text-purple-light">C</div>
 <div class="text-xs mt-2">Calendar</div>
 <div class="text-xs opacity-60">Schedule everything</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-3xl font-bold text-amber-400">C</div>
+<div class="p-4 monday-bg-green-light rounded-lg">
+<div class="text-3xl font-bold monday-text-green">C</div>
 <div class="text-xs mt-2">Concentration</div>
 <div class="text-xs opacity-60">Protect focus</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-3xl font-bold text-amber-400">P</div>
+<div class="p-4 monday-bg-yellow-light rounded-lg">
+<div class="text-3xl font-bold monday-text-yellow">P</div>
 <div class="text-xs mt-2">Prioritize</div>
 <div class="text-xs opacity-60">Urgent/Important</div>
 </div>
 
-<div class="p-4 bg-amber-500/20 rounded-lg">
-<div class="text-3xl font-bold text-amber-400">O</div>
+<div class="p-4 monday-bg-red-light rounded-lg">
+<div class="text-3xl font-bold monday-text-red">O</div>
 <div class="text-xs mt-2">Objective</div>
 <div class="text-xs opacity-60">Daily focus</div>
 </div>
@@ -1440,7 +1440,7 @@ class: text-center
 Remember: You have 1440 minutes today
 </div>
 
-<div class="text-lg mt-4 text-amber-400">
+<div class="text-lg mt-4 monday-text-purple">
 Make them count
 </div>
 

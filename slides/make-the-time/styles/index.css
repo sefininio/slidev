@@ -45,9 +45,36 @@
   --monday-radius-pill: 999px;
 }
 
-.text-amber-400 {
-  color: var(--monday-purple);
+/* Monday backgrounds with opacity */
+.monday-bg-purple-light {
+  background-color: color-mix(in srgb, var(--monday-purple) 20%, transparent);
 }
+
+.monday-bg-purple-lighter {
+  background-color: color-mix(in srgb, var(--monday-purple-light) 20%, transparent);
+}
+
+.monday-bg-green-light {
+  background-color: color-mix(in srgb, var(--monday-green) 20%, transparent);
+}
+
+.monday-bg-yellow-light {
+  background-color: color-mix(in srgb, var(--monday-yellow) 20%, transparent);
+}
+
+.monday-bg-red-light {
+  background-color: color-mix(in srgb, var(--monday-red) 20%, transparent);
+}
+
+/* Monday text colors */
+.monday-text-purple-light {
+  color: var(--monday-purple-light);
+}
+
+.monday-text-red {
+  color: var(--monday-red);
+}
+
 
 /* === BASE SLIDE === */
 .slidev-layout {

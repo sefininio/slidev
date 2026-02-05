@@ -1,0 +1,577 @@
+/* Monday.com Slidev Theme */
+
+:root {
+  /* Core colors */
+  --monday-bg: #000000;
+  --monday-bg-gradient: linear-gradient(180deg, #000000 0%, #181B34 100%);
+  --monday-card: #323338;
+  --monday-card-border: #4B4E69;
+
+  /* Brand accent colors */
+  --monday-purple: #6161FF;
+  --monday-purple-light: #A5A5FF;
+  --monday-green: #00CA72;
+  --monday-yellow: #FFCB00;
+  --monday-pink: #FF158A;
+  --monday-red: #E44258;
+
+  /* Text colors */
+  --monday-text: #FFFFFF;
+  --monday-text-muted: #C5C7D0;
+  --monday-text-dim: #676879;
+
+  /* Spacing scale */
+  --monday-space-xs: 0.25rem;
+  --monday-space-sm: 0.5rem;
+  --monday-space-md: 1rem;
+  --monday-space-lg: 1.5rem;
+  --monday-space-xl: 2rem;
+  --monday-space-2xl: 3rem;
+  --monday-space-3xl: 4rem;
+
+  /* Font sizes */
+  --monday-text-xs: 0.75rem;
+  --monday-text-sm: 0.875rem;
+  --monday-text-base: 1rem;
+  --monday-text-lg: 1.25rem;
+  --monday-text-xl: 1.75rem;
+  --monday-text-2xl: 2.5rem;
+  --monday-text-3xl: 3.5rem;
+
+  /* Spacing & sizing */
+  --monday-radius: 16px;
+  --monday-radius-sm: 8px;
+  --monday-radius-lg: 32px;
+  --monday-radius-pill: 999px;
+}
+
+.text-amber-400 {
+  color: var(--monday-purple);
+}
+
+/* === BASE SLIDE === */
+.slidev-layout {
+  background: var(--monday-bg);
+  color: var(--monday-text);
+  font-family: 'Poppins', sans-serif;
+}
+
+.slidev-layout.gradient-bg {
+  background: var(--monday-bg-gradient);
+}
+
+/* === TYPOGRAPHY === */
+.monday-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.monday-subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--monday-text-muted);
+}
+
+.monday-heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+/* === CARDS === */
+.monday-card {
+  background: var(--monday-card);
+  border-radius: var(--monday-radius);
+  padding: 2rem;
+}
+
+.monday-card-outline {
+  background: transparent;
+  border: 1px solid var(--monday-card-border);
+  border-radius: var(--monday-radius);
+  padding: 2rem;
+}
+
+.monday-card-accent {
+  background: var(--monday-purple);
+  border-radius: var(--monday-radius);
+  padding: 2rem;
+}
+
+.monday-card-green {
+  background: var(--monday-green);
+  border-radius: var(--monday-radius);
+  padding: 2rem;
+  color: #000;
+}
+
+/* === MINI TITLE (Pill label at top of slides) === */
+.monday-mini-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--monday-text-muted);
+  border-radius: var(--monday-radius-pill);
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  color: var(--monday-text-muted);
+}
+
+.monday-mini-title::before {
+  content: '';
+  width: 1.5rem;
+  height: 1px;
+  background: var(--monday-text-muted);
+  margin-right: 0.5rem;
+}
+
+/* === STATS === */
+.monday-stat {
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.monday-stat-lg {
+  font-size: 7rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.monday-stat-green { color: var(--monday-green); }
+.monday-stat-purple { color: var(--monday-purple); }
+.monday-stat-yellow { color: var(--monday-yellow); }
+.monday-stat-pink { color: var(--monday-pink); }
+
+/* === QUOTES === */
+.monday-quote-icon {
+  font-size: 3rem;
+  color: var(--monday-purple);
+  font-family: serif;
+  line-height: 1;
+}
+
+.monday-quote-text {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.monday-quote-author {
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.monday-quote-title {
+  color: var(--monday-text-muted);
+  font-weight: 400;
+}
+
+/* === NUMBERED DOTS === */
+.monday-dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.monday-dot-purple { background: var(--monday-purple); }
+.monday-dot-yellow { background: var(--monday-yellow); }
+.monday-dot-green { background: var(--monday-green); }
+.monday-dot-pink { background: var(--monday-pink); }
+
+/* === NUMBER CIRCLES (for agenda items) === */
+.monday-number-circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--monday-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.monday-number-circle-lg {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--monday-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.monday-number-circle-green { background: var(--monday-green); }
+.monday-number-circle-yellow { background: var(--monday-yellow); }
+.monday-number-circle-pink { background: var(--monday-pink); }
+
+/* === BUTTONS/TAGS === */
+.monday-btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--monday-radius-pill);
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.monday-btn-purple { background: var(--monday-purple); color: white; }
+.monday-btn-yellow { background: var(--monday-yellow); color: black; }
+.monday-btn-green { background: var(--monday-green); color: black; }
+.monday-btn-pink { background: var(--monday-pink); color: white; }
+.monday-btn-outline {
+  background: transparent;
+  border: 1px solid var(--monday-text-muted);
+  color: var(--monday-text);
+}
+
+/* === TAGS === */
+.monday-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--monday-radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.monday-tag-purple { background: var(--monday-purple); color: white; }
+.monday-tag-green { background: var(--monday-green); color: black; }
+.monday-tag-yellow { background: var(--monday-yellow); color: black; }
+.monday-tag-pink { background: var(--monday-pink); color: white; }
+
+/* === GRID LAYOUTS === */
+.monday-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.monday-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.monday-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+/* === TWO-COLUMN LAYOUT (title left, content right) === */
+.monday-split {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.monday-split-equal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* === TIMELINE === */
+.monday-timeline {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.monday-timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.monday-timeline-circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.monday-timeline-circle-filled {
+  background: var(--monday-purple);
+}
+
+.monday-timeline-circle-outline {
+  border: 2px solid var(--monday-purple);
+  background: transparent;
+}
+
+.monday-timeline-connector {
+  height: 2px;
+  background: var(--monday-purple);
+  flex: 1;
+  margin-top: 3rem;
+}
+
+/* === IMAGE CONTAINERS === */
+.monday-image-frame {
+  background: var(--monday-card);
+  border-radius: var(--monday-radius);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.monday-image-frame img {
+  border-radius: var(--monday-radius-sm);
+  width: 100%;
+  height: auto;
+}
+
+/* === MONDAY LOGO === */
+.monday-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.monday-logo-dots {
+  display: flex;
+  gap: 2px;
+}
+
+.monday-logo-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.monday-logo-dot-pink { background: var(--monday-pink); }
+.monday-logo-dot-yellow { background: var(--monday-yellow); }
+.monday-logo-dot-green { background: var(--monday-green); }
+
+/* === LISTS === */
+.monday-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.monday-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.monday-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--monday-purple);
+}
+
+/* === CHECKMARKS === */
+.monday-check {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.monday-check-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--monday-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 0.875rem;
+}
+
+/* === DIVIDERS === */
+.monday-divider {
+  height: 1px;
+  background: var(--monday-card-border);
+  margin: 2rem 0;
+}
+
+.monday-divider-vertical {
+  width: 1px;
+  background: var(--monday-card-border);
+  height: 100%;
+}
+
+/* === UTILITY CLASSES === */
+.monday-text-muted {
+  color: var(--monday-text-muted);
+}
+
+.monday-text-dim {
+  color: var(--monday-text-dim);
+}
+
+.monday-text-purple {
+  color: var(--monday-purple);
+}
+
+.monday-text-green {
+  color: var(--monday-green);
+}
+
+.monday-text-yellow {
+  color: var(--monday-yellow);
+}
+
+.monday-text-pink {
+  color: var(--monday-pink);
+}
+
+.monday-bg-card {
+  background: var(--monday-card);
+}
+
+.monday-bg-purple {
+  background: var(--monday-purple);
+}
+
+/* === ICONS (placeholder for common icons) === */
+.monday-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.monday-icon-lg {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* === AVATAR === */
+.monday-avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.monday-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* === PROGRESS BAR === */
+.monday-progress {
+  height: 0.5rem;
+  background: var(--monday-card-border);
+  border-radius: var(--monday-radius-pill);
+  overflow: hidden;
+}
+
+.monday-progress-fill {
+  height: 100%;
+  background: var(--monday-purple);
+  border-radius: var(--monday-radius-pill);
+}
+
+/* === SPARKLE ICON (for closing slides) === */
+.monday-sparkle {
+  font-size: 4rem;
+  color: var(--monday-text);
+}
+
+/* === OPENING SLIDE LAYOUT === */
+/* Large pill-shaped outline card that fills most of the slide */
+.monday-opening-card {
+  position: relative;
+  min-height: 55vh;
+  border: 1px solid var(--monday-card-border);
+  border-radius: var(--monday-radius-lg);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Logo positioned inside the opening card */
+.monday-opening-logo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+/* Full-width bottom accent bar */
+.monday-accent-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--monday-purple);
+  border-radius: 0 0 var(--monday-radius) var(--monday-radius);
+  padding: 1.5rem 2rem;
+}
+
+/* === SECTION DIVIDER LAYOUT === */
+/* Centered pill card for section dividers */
+.monday-section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  border: 1px solid var(--monday-card-border);
+  border-radius: var(--monday-radius-lg);
+  padding: 3rem 5rem;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* === AGENDA LAYOUT === */
+/* Two-column layout: title left, stacked cards right */
+.monday-agenda-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  align-items: start;
+  height: 100%;
+}
+
+/* Stacked cards container */
+.monday-stacked-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Individual agenda item card */
+.monday-agenda-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--monday-card);
+  border-radius: var(--monday-radius);
+  padding: 1rem 1.5rem;
+}
+
+/* === FULL-HEIGHT CONTENT CARD === */
+/* For two-column layouts where right card extends full height */
+.monday-content-full {
+  background: var(--monday-card);
+  border-radius: var(--monday-radius);
+  padding: 2rem;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
